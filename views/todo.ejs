@@ -3,7 +3,7 @@
 <html>
 
     <head>
-        <title>My shaandaar todolist</title>
+        <title>CI-CD Implementation</title>
         <style>
             a {
                 text-decoration: none;
@@ -15,23 +15,9 @@
 
     <body>
         <h1>BATCH C3 is just Amazing & Awesome</h1>
-        <ul>
-            <% todolist.forEach(function(todo, index) { %>
-            <li>
-                <a href="/todo/delete/<%= index %>">✘</a>
-                <a href="/todo/<%= index %>">✎</a>
-                <%- todo %>
-            </li>
-            <% }); %>
-        </ul>
+        <p>We have implemented it for our CC SCE </p>
 
-        <form action="/todo/add/" method="post">
-            <p>
-                <label for="newtodo">What shoud I do?</label>
-                <input type="text" name="newtodo" id="newtodo" autofocus />
-                <input type="submit" value="Add" />
-            </p>
-        </form>
+        
     </body>
 
 </html>
